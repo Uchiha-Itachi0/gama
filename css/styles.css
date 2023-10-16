@@ -1,0 +1,207 @@
+body{
+	font-family: "Montserrat";
+}
+
+h1{
+	font-family: 'Montserrat-Black', sans-serif;
+	font-size: 3rem;
+	font-weight: bold;
+	line-height: 1.5;
+	
+}
+
+h2{
+	font-family: 'Montserrat-Bold';
+	font-size: 2rem;
+	word-spacing: 0.2rem;
+	line-height: 1.5;
+
+}
+
+
+h3{
+    font-family: "Montserrat-Black";
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+
+p{
+      color: #8f8f8f;
+}
+
+
+
+/* navbar */
+
+.navbar-brand{
+	font-family: "Ubuntu";
+	font-weight: bold;
+	font-size: 2.5rem;
+	color: #000!important;
+}
+
+.nav-item{
+	padding: 0 18px;
+}
+.nav-link{
+	font-family: Montserrate-light;
+	font-size: 1.2rem;
+	color: #000!important;
+}
+
+#navbar008{
+	background-color: #fdb827;
+}
+
+/* Title */
+
+#title{
+	background-color: #222831;
+	color: #fef0ff;
+}
+
+.container-fluid{
+	padding: 8% 15%;
+}
+
+.macbook{
+	width: 130%;
+	position: relative;
+	bottom: 20%;
+
+}
+
+@media (max-width: 991px)
+{
+	#title{
+		text-align: center;
+	}
+	.macbook{
+		position: static;
+		width: 110%;
+	}
+}
+
+/* downlaod button */
+
+.download-button{
+	margin: 5% 3% 5% 0;
+}
+
+
+/* Feature Box */
+
+#features{
+      padding: 4% 12%;
+      background-color: #fef0ff;
+}
+
+.above{
+	position: relative;
+    bottom: 200px;
+    border: solid;
+    background-color: #fef0ff;
+    box-shadow: 1px -2px 20px 7px rgba(0,0,0,0.9);
+}
+
+@media(max-width: 1050px){
+	.above{
+		bottom: 100px;
+	}
+}
+.feature-box{
+      text-align: center;
+      padding: 4%;
+}
+
+.icon{
+	color: #fdb827;
+	margin: 1rem;
+
+}
+
+.icon:hover{
+	color: #00204a;
+}
+
+/* Testimonials */
+
+#testimonials{
+	padding: 8% 15%;
+	text-align: center;
+	background-color: #374045;
+	color: #fff;
+}
+
+.client-img{
+	width: 12%;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+.carousel-item{
+	padding: 8% 15%;
+}
+
+.carousel .above{
+	background-color:  #374045;
+}
+
+@media(max-width: 850px){
+	.carousel-item h2{
+		font-size: 1.5rem;
+	}
+}
+
+/* press */
+
+#press{
+	background-color: #374045;
+	text-align: center;
+	padding-bottom: 3%;
+}
+.press-logo{
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+
+#pricing{
+	text-align: center;
+	background-color: #fef0ff;
+}
+.row{
+	padding: 5% 0;
+}
+
+#pricing h2{
+	font-size: 2.5rem;
+}
+
+#pricing h2{
+	font-weight: bold;
+}
+
+/* Bottom downlaod */
+
+#cta{
+	text-align: center;
+	background-color: #374045;
+	color: #fff;
+}
+
+/* footer */
+
+#footer{
+	text-align: center;
+	background-color:  #fef0ff;
+	padding: 5% 0;
+}
+
+#footer a{
+	padding: 0 3%;
+}
+
+#footer p{
+	color: #000;
+	font-weight: bold;
+}
